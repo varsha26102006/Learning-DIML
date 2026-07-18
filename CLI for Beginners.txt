@@ -1,0 +1,95 @@
+📁 File Commands
+
+
+Command	Description	Example
+type nul > filename.txt	Create a new empty file	type nul > notes.txt
+type filename.txt	View file contents	type notes.txt
+copy source destination	Copy a file	copy notes.txt D:\Backup
+move source destination	Move a file	move notes.txt D:\Backup
+ren oldname newname	Rename a file	ren notes.txt todo.txt
+del filename	Delete a file	del todo.txt
+attrib filename	Show file attributes	attrib notes.txt
+fc file1 file2	Compare two files	fc file1.txt file2.txt
+
+
+📂 Folder Commands
+
+
+Command	Description	Example
+mkdir FolderName or md FolderName	Create a folder	mkdir Projects
+rmdir FolderName or rd FolderName	Delete an empty folder	rmdir Projects
+rmdir /s FolderName	Delete a folder with all contents	rmdir /s Projects
+tree	Show folder structure	tree
+🧭 Navigation Commands
+Command	Description	Example
+dir	List files and folders	dir
+cd FolderName	Enter a folder	cd Documents
+cd ..	Go back one folder	cd ..
+cd \	Go to the root of the current drive	cd \
+cd	Show the current directory	cd
+C:	Switch to C drive	C:
+D:	Switch to D drive	D:
+pushd path	Save current location and go to another folder	pushd C:\Users
+popd	Return to the previous folder	popd
+
+
+💻 System Commands
+
+
+Command	Description	Example
+ver	Show Windows version	ver
+systeminfo	Show detailed system information	systeminfo
+hostname	Show computer name	hostname
+whoami	Show current logged-in user	whoami
+date	Display or change the date	date
+time	Display or change the time	time
+cls	Clear the screen	cls
+exit	Close Command Prompt	exit
+echo Hello	Print text	echo Hello
+help	List available commands	help
+
+
+🌐 Network Commands
+
+
+Command	Description	Example
+ipconfig	Show IP configuration	ipconfig
+ipconfig /all	Show detailed network information	ipconfig /all
+ping google.com	Test internet connection	ping google.com
+netstat	Show network connections	netstat
+nslookup google.com	Find IP address of a domain	nslookup google.com
+tracert google.com	Trace the route to a website	tracert google.com
+
+
+⚙️ Process Commands
+
+
+Command	Description	Example
+tasklist	Show running processes	tasklist
+taskkill /IM notepad.exe /F	Force close an application	taskkill /IM notepad.exe /F
+shutdown /s /t 60	Shut down after 60 seconds	shutdown /s /t 60
+shutdown /r /t 0	Restart immediately	shutdown /r /t 0
+shutdown /a	Cancel a scheduled shutdown	shutdown /a
+
+
+🎯 Beginner Practice
+
+Try these commands in order:
+
+mkdir Practice
+cd Practice
+type nul > file1.txt
+dir
+ren file1.txt notes.txt
+type notes.txt
+copy notes.txt backup.txt
+dir
+del backup.txt
+cd ..
+rmdir /s Practice
+systeminfo
+hostname
+whoami
+ipconfig
+ping google.com
+tasklist
