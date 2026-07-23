@@ -16,7 +16,7 @@ fc file1 file2	Compare two files	fc file1.txt file2.txt
 
 
 Command	Description	Example
-mkdir FolderName or md FolderName	Create a folder	mkdir Projects
+mkdir FolderName or md FolderName	Create a folder	mkdir projects
 rmdir FolderName or rd FolderName	Delete an empty folder	rmdir Projects
 rmdir /s FolderName	Delete a folder with all contents	rmdir /s Projects
 tree	Show folder structure	tree
